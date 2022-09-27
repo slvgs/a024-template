@@ -1,1 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: silver;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    justify-items:end ;
+    align-items: center;
+    padding: 3px;
+}
+.logo{
+    justify-self: start;
+}
+main{
+    background-color:pink;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 100vh;
+    
+}
+footer{
+    background-color: silver;
+}
+.gallery{
+    display: grid;
+    color: black;
+    background-color: pink;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: center;
+    padding: 20px;
+}
+section{
+    padding: 6px;
+}
 
+.container{
+    display: grid;
+    grid-template-rows: 10% 1fr 10%;
+}
